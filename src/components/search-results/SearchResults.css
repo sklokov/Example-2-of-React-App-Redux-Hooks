@@ -1,0 +1,22 @@
+#PhotoContainer {
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr;
+    grid-template-rows: repeat(0, auto) repeat(3, 1fr) repeat(3, 1fr);
+    margin-left: 10.6em;
+    margin-right: 7em;
+    grid-gap: 30px;
+
+}
+
+.sectionMiddleFirst {
+    overflow: hidden;
+    position: relative;
+    background-color: rgb(13, 71, 161);
+    height: 33vh;
+    min-width: 120px;
+    border-bottom: 3px solid #D32F2F;
+    font-family: 'Georgia';
+    font-weight: 700;
+    color: white;
+    text-align: left;
+}

@@ -1,0 +1,175 @@
+#content {
+    display: grid;
+    grid-template-columns: 4.5fr 0.5fr 1fr 0.5fr 1fr 1fr;
+    grid-template-rows: repeat(2, auto) repeat(3, 1fr) repeat(3, 1fr);
+    height: calc(55vh - 10px);
+    grid-gap: 30px;
+    max-width: 3680px;
+    margin: 2em 7em 4em 10.6em;
+    grid-template-areas:
+                  "aside aside main main sectionThird sectionThird"
+                    "aside aside main main sectionThird sectionThird"
+                    "aside aside section section sectionSecond sectionSecond"
+                    "aside aside section section sectionSecond sectionSecond"
+}
+
+@media screen and (min-width: 760px) {
+    #content {
+        display: grid;
+        grid-template-columns: 2.5fr 0.5fr 1fr 1fr 1fr 1fr;
+        grid-template-rows: repeat(2, auto) repeat(3, 1fr) repeat(3, 1fr);
+        height: calc(55vh - 10px);
+        grid-gap: 30px;
+        max-width: 3680px;
+        margin: 2em 7em 4em 10.6em;
+        grid-template-areas:
+                  "aside aside main main sectionThird sectionThird"
+                    "aside aside main main sectionThird sectionThird"
+                      "aside aside section section sectionSecond sectionSecond"
+                    "aside aside section section sectionSecond sectionSecond"
+    }
+}
+
+@media screen and (max-width: 1100px) {
+    #content {
+        display: grid;
+        /*background-color: #D32F2F;*/
+        grid-template-columns: 2.5fr;
+        grid-template-rows: repeat(2, auto) repeat(3, 1fr) repeat(3, 1fr);
+        height: calc(55vh - 10px);
+        grid-gap: 30px;
+        max-width: 3680px;
+        margin: 2em 7em 4em 10.6em;
+        grid-template-areas:
+                  "aside"
+                    "main"
+                    "sectionThird"
+                     "section"
+                    "sectionSecond"
+    }
+
+    aside {
+        grid-area: aside;
+        overflow: hidden;
+        position: relative;
+        font-family: 'Georgia';
+        background-color: rgb(13, 71, 161);
+        font-weight: 700;
+        color: white;
+        height: 33vh;
+        text-align: left;
+        cursor: pointer;
+        min-width: 120px;
+        border-bottom: 3px solid #388E3C;
+    }
+}
+
+header {
+    grid-area: header;
+    overflow: auto;
+    min-width: 120px;
+}
+
+main {
+    grid-area: main;
+    overflow: hidden;
+    position: relative;
+    height: 33vh;
+    min-width: 120px;
+    background-color: rgb(13, 71, 161);
+    border-bottom: 3px solid #D32F2F;
+    font-family: 'Georgia';
+    font-weight: 700;
+    color: white;
+    text-align: left;
+    cursor: pointer;
+    border-bottom: 3px solid #2196F3;
+}
+
+aside {
+    grid-area: aside;
+    overflow: hidden;
+    position: relative;
+    font-family: 'Georgia';
+    background-color: rgb(13, 71, 161);
+    font-weight: 700;
+    color: white;
+    text-align: left;
+    cursor: pointer;
+    min-width: 120px;
+    border-bottom: 3px solid #388E3C;
+}
+
+sectionSecond {
+    grid-area: sectionSecond;
+    overflow: hidden;
+    background-color: #09357B;
+    font-family: 'Georgia';
+    font-weight: 700;
+    color: white;
+    height: 16vh;
+    cursor: pointer;
+    min-width: 120px;
+    text-align: left;
+    border-bottom: 3px solid #388E3C;
+}
+
+sectionThird {
+    grid-area: sectionThird;
+    overflow: hidden;
+    position: relative;
+    background-color: rgb(13, 71, 161);
+    height: 33vh;
+    font-family: 'Georgia';
+    font-weight: 700;
+    color: white;
+    cursor: pointer;
+    text-align: left;
+    min-width: 120px;
+    border-bottom: 3px solid #FFC107;
+}
+
+nav {
+    grid-area: nav;
+    overflow: hidden;
+    min-width: 120px;
+}
+
+section {
+    grid-area: section;
+    overflow: hidden;
+    background-color: #09357B;
+    font-family: 'Georgia';
+    font-weight: 700;
+    cursor: pointer;
+    color: white;
+    border-bottom: 3px solid #2196F3;
+    height: 16vh;
+    min-width: 120px;
+    text-align: left;
+}
+
+footer {
+    grid-area: footer;
+    background: #333 !important;
+    overflow: hidden;
+    min-width: 120px;
+}
+
+@media screen and (max-width: 522px) {
+    #content {
+        display: grid;
+        grid-template-columns: 1.9fr;
+        grid-template-rows: repeat(2, auto) repeat(3, 1fr) repeat(3, 1fr);
+        height: calc(55vh - 10px);
+        grid-gap: 30px;
+        max-width: 3680px;
+        margin: 2em 1.7em -2em 1.6em;
+        grid-template-areas:
+                  "aside"
+                    "main"
+                    "sectionThird"
+                     "section"
+                    "sectionSecond"
+    }
+}

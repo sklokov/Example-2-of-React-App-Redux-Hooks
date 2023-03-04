@@ -1,0 +1,150 @@
+.dateTitlesSection {
+    width: 48%;
+}
+
+.bodyTextSection {
+    display: flex;
+    align-items: flex-start;
+    width: 100%;
+}
+
+.bookMarkSection {
+    text-align: left;
+    margin-left: 10em;
+    width: 91%;
+    margin-top: 4em;
+}
+
+.imgSection {
+    width: 445px;
+    height: 267px;
+    background-color: #0D47A1;
+    object-fit: contain;
+    margin-right: 17em;
+}
+
+.imgSectionSecond {
+    width: 445px;
+    height: 267px;
+    margin-right: 17em;
+}
+
+@media only screen and (min-width: 1283px) and (max-width: 1425px) {
+    .dateTitlesSection {
+        width: 41%;
+    }
+
+}
+
+@media only screen and (min-width: 1122px) and (max-width: 1283px) {
+    .dateTitlesSection {
+        width: 33%;
+    }
+
+}
+
+@media only screen and (min-width: 900px) and (max-width: 1122px) {
+    .dateTitlesSection {
+        width: 30%;
+    }
+
+}
+
+@media screen and (max-width: 522px) {
+    .bodyTextSection {
+        display: flex;
+        align-items: flex-start;
+        width: 100%;
+    }
+}
+
+
+@media only screen and (min-width: 392px) and (max-width: 414px){
+    .bodyTextSection {
+        display: flex;
+        align-items: flex-start;
+        width: 100%;
+        flex-wrap: wrap-reverse;
+    }
+    .bookMarkSection {
+        text-align: left;
+        margin-left: 2em;
+        width: 91%;
+        margin-top: 4em;
+    }
+
+    .imgSection {
+        width: 310px;
+        height: 145px;
+        background-color: #0D47A1;
+        object-fit: contain;
+        margin-right: 17em;
+    }
+
+    .imgSectionSecond {
+        width: 310px;
+        height: 145px;
+        margin-right: 17em;
+    }
+
+}
+
+@media only screen and (min-width: 376px) and (max-width: 391px){
+    .bodyTextSection {
+        display: flex;
+        align-items: flex-start;
+        width: 100%;
+        flex-wrap: wrap-reverse;
+    }
+    .bookMarkSection {
+        text-align: left;
+        margin-left: 2em;
+        width: 91%;
+        margin-top: 4em;
+    }
+
+    .imgSection {
+        width: 310px;
+        height: 145px;
+        background-color: #0D47A1;
+        object-fit: contain;
+        margin-right: 17em;
+    }
+
+    .imgSectionSecond {
+        width: 310px;
+        height: 145px;
+        margin-right: 17em;
+    }
+
+}
+
+@media screen and (max-width: 375px) {
+    .bodyTextSection {
+        display: flex;
+        align-items: flex-start;
+        width: 100%;
+        flex-wrap: wrap-reverse;
+    }
+    .bookMarkSection {
+        text-align: left;
+        margin-left: 2em;
+        width: 91%;
+        margin-top: 4em;
+    }
+
+    .imgSection {
+        width: 280px;
+        height: 145px;
+        background-color: #0D47A1;
+        object-fit: contain;
+        margin-right: 17em;
+    }
+
+    .imgSectionSecond {
+        width: 280px;
+        height: 145px;
+        margin-right: 17em;
+    }
+
+}

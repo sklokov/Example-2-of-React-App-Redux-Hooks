@@ -1,0 +1,57 @@
+.image {
+    position:absolute;
+    bottom:8px;
+    left:260px;
+    width:10px;
+    height:10px;
+}
+
+#inputID::placeholder {
+    opacity: 1;
+    color: #7A98C8;
+    padding-left: 20px;
+    font-size: 17px;
+}
+
+.logoSection {
+    height: 49px;
+    cursor: pointer;
+    width: auto;
+    position: absolute;
+    left: 165px;
+    top: 32px
+}
+
+.searchSection {
+    width: 5vw;
+    height: 45px;
+    background-color: #09357B;
+    border-bottom: 3px solid white;
+    margin-right: 8em;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+@media screen and (max-width: 522px) {
+
+    .logoSection {
+        height: 49px;
+        cursor: pointer;
+        width: auto;
+        position: absolute;
+        left: 27px;
+        top: 32px
+    }
+    .searchSection {
+        width: 5vw;
+        height: 45px;
+        background-color: #09357B;
+        border-bottom: 3px solid white;
+        margin-right: 3em;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+}
